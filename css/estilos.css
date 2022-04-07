@@ -1,0 +1,226 @@
+.mapa{
+
+    width: 605px;
+    height: 402px;
+    margin-top: 50px;
+
+
+}
+
+
+
+#local{
+
+    width: 100%;
+    background-color: #f3f3f3;
+    padding-bottom: 300px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.wrapper{
+
+    width: 50%;
+    margin-left: 100px;
+    padding-top: 150px;
+
+}
+
+#menu-var li > a{
+
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+
+}
+
+.carousel-inner{
+
+    max-height: 39rem;
+
+}
+
+.modificar-img img{
+
+    margin-top: 15px;
+
+}
+
+.modificar-img p{
+
+    max-width: 400px;
+
+}
+
+#numero-local{
+
+    padding: 0 20px 0 0;
+    height: 48px;
+
+}
+
+#numero-local div:not(:last-child){
+
+    border-left: 2px solid #3f3f3f;
+
+}
+
+#numero-local div:not(:first-child){
+
+    padding-left: 20px;
+
+}
+
+#numero-local p{
+
+    padding-left: 20px;
+
+}
+
+#bg-contacto{
+
+    position: relative;
+    top: -225px;
+
+}
+
+#seccion-contacto{
+
+    background-color: #1b2a4e;
+    min-height: 500px;
+    position: relative;
+
+}
+
+#contenedor-formulario{
+
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: 500px;
+
+}
+
+footer{
+
+    background-color: #1b2a4e;
+    min-height: 100px;
+    color: #FFFFFF;
+    text-align:center;
+
+}
+
+footer i{
+
+    font-size: 26PX;
+    padding: 0 8px;
+    color: #FFFFFF;
+    text-align:center;
+}
+
+
+/*=============== MEDIA ===============*/
+
+@media (max-width:1200px){
+
+    #local{
+
+        flex-wrap: wrap;
+        padding-top: 30px;
+
+    }
+
+    .wrapper{
+
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+
+    }
+
+    #bg-contacto{
+
+        position: relative;
+        top: -200px;
+
+    }
+
+}
+
+@media(max-width:1000px){
+
+    #bg-contacto{
+
+        position: relative;
+        top: -180px;
+
+    }
+
+
+}
+
+@media(max-width:768px) {
+
+    #intro{
+
+        width: 90% !important;
+
+    }
+
+    .servicio-fila{
+
+        width: 100% !important;
+        text-align: center;
+
+    }
+
+    .modificar-img img{
+
+        margin-top: 60px;
+    
+    }
+    
+    #bg-contacto{
+
+        position: relative;
+        top: -130px;
+
+    }
+    
+}
+
+@media(max-width:1000px){
+
+    #bg-contacto{
+
+        position: relative;
+        top: -120px;
+
+    }
+
+
+}
+
+@media(max-width:576px){
+
+    .icono-wrap{
+
+        flex-wrap: wrap;
+        justify-content: center !important;
+
+    }
+
+    #bg-contacto{
+
+        position: relative;
+        top: -110px;
+
+    }
+
+
+}
